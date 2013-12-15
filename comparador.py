@@ -18,9 +18,9 @@ print '<h2>PROFESIONAL PHP 6</h2>'
 
 
 
-url1 = ['http://www.casadellibro.com/libro-profesional-php-6-anaya-multimediawrox/9788441526341/1339131']
-url2 = ['http://www.amazon.es/PHP-6-Anaya-Multimedia-Wrox/dp/8441526346/']
-url3 = ['http://libros.fnac.es/a342029/Ed-Lecky-Thompson-PHP-6']
+url1 = "http://www.casadellibro.com/libro-profesional-php-6-anaya-multimediawrox/9788441526341/1339131"
+url2 = "http://www.amazon.es/PHP-6-Anaya-Multimedia-Wrox/dp/8441526346/"
+url3 = "http://libros.fnac.es/a342029/Ed-Lecky-Thompson-PHP-6"
 
 
 soup = BeautifulSoup(urlopen(url1))
